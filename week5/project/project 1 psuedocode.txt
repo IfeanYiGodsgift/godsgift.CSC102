@@ -1,0 +1,7 @@
+1. Import pandas library
+2. Create a DataFrame for girls data
+3. Create a DataFrame for boys data
+4. Print "Girls" header
+5. Display girls DataFrame in tabular form
+6. Print "Boys" header
+7. Display boys DataFrame in tabular form
