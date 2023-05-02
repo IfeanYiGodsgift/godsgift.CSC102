@@ -1,0 +1,22 @@
+Simple Interest:
+
+1.Start
+2.Input Principal, Rate, Time
+3.Calculate Interest = (Principal * Rate * Time) / 100
+4.Output Interest
+5.End
+
+Compound Interest:
+1.Start
+2.Input Principal, Rate, Time, Number of times interest is compounded per unit time
+3.Calculate Amount = Principal * (1 + Rate / Number of times interest is compounded per unit time) ^ (Number of times interest is compounded per unit time * Time)
+4.Calculate Compound Interest = Amount - Principal
+5.Output Compound Interest
+6.End
+
+Annuity Plan:
+1.Start
+2.Input Payment amount, Rate per period, Number of periods
+3.Calculate Present Value = Payment amount * ((1 - (1 + Rate per period) ^ (-Number of periods)) / Rate per period)
+4.Output Present Value
+5.End
