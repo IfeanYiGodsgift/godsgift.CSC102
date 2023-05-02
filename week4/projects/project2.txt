@@ -1,0 +1,23 @@
+A. 	
+	1. Begin
+	2. Input A, B, C, D
+	3. Set a = B / A
+	4. Set b = C / A
+	5. Set c = D / A
+	6. Set Q = (3b - a^2) / 9
+	7. Set R = (9a*b - 27c - 2a^3) / 54
+	8. Set S = (R + sqrt(Q^3 + R^2))^(1/3)
+	9. Set T = (R - sqrt(Q^3 + R^2))^(1/3)
+	10. Set x1 = S + T - a/3
+	11. Set x2 = -(S + T)/2 - a/3 + i*(S - T)*sqrt(3)/2
+	12. Set x3 = -(S + T)/2 - a/3 - i*(S - T)*sqrt(3)/2
+	13. Output x1, x2, x3
+	14. End
+
+B. 
+	1. Begin
+	2. Prompt the user to input the coefficients A, B, C, D, and E of the quartic equation Ax^4 + Bx^3 + Cx^2 + Dx + E = 0
+	3. Define an array of coefficients [A, B, C, D, E]
+	4. Use the numpy.roots function to find the roots of the quartic equation
+	5. Output the roots of the quartic equation
+	6. End

@@ -1,0 +1,117 @@
+A. 
+Pseudocode:
+		1. Begin
+		2. Input the list of items purchased
+		3. Calculate the total cost of items
+		4. Apply any discounts or coupons
+		5. Calculate the final cost
+		6. Accept payment from customer
+		7. Print receipt
+		8. End
+
+Flowchart : 
+  +------------+
+  |   Begin    |
+  +------+-----+
+         |
+         v
+  +------+-----+
+  | Input items|
+  +------+-----+
+         |
+         v
+  +------+-----+
+  | Calculate  |
+  |   total    |
+  +------+-----+
+         |
+         v
+  +------+-----+
+  | Apply      |
+  | discounts  |
+  +------+-----+
+         |
+         v
+  +------+-----+
+  | Calculate  |
+  | final cost |
+  +------+-----+
+         |
+         v
+  +------+-----+
+  | Accept     |
+  | payment    |
+  +------+-----+
+         |
+         v
+  +------+-----+
+  | Print      |
+  | receipt    |
+  +------+-----+
+         |
+         v
+   +------+-----+
+   |    End     |
+   +------------+
+
+B. 
+	
+  +------------+
+  |   Begin    |
+  +------+-----+
+         |
+         v
+  +------+-----+
+  | Wake up    |
+  +------+-----+
+         |
+         v
+  +------+-----+
+  | Get ready  |
+  +------+-----+
+         |
+         v
+  +------+-----+
+  | Have       |
+  | breakfast  |
+  +------+-----+
+         |
+         v
+  +------+-----+
+  | Check      |
+  | schedule   |
+  +------+-----+
+         |
+         v
+  +------+-----+
+  | Pack bag   |
+  +------+-----+
+         |
+         v
+  +------+-----+
+  | Leave for  |
+  | university |
+  +------+-----+
+         |
+         v
+   +------+----+
+   | Attend    |
+   | class     |
+   +------+----+
+        |
+        v
+   +------+----+
+   |    End     |
+   +------------+	 
+
+
+C. 
+	1. Begin
+	2. Input name1, age1
+	3. Input name2, age2
+	4. Set temp = age1
+	5. Set age1 = age2
+	6. Set age2 = temp
+	7. Output name1, age1
+	8. Output name2, age2
+	9. End
