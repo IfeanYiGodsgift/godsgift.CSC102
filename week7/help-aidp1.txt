@@ -1,0 +1,77 @@
+import pandas as pd
+
+def verify_employee():
+    # Prompt user for employee information
+    first_name = input("Enter employee first name: ")
+    surname = input("Enter employee surname: ")
+    department = input("Enter employee department: ")
+    
+    # Load the JT Ventures employee dataset
+    df = pd.read_csv('jt-ventures.csv')
+    
+    # Check if the employee exists
+    if not df.loc[(df['First Name'] == first_name) & (df['Surname'] == surname) & (df['Department'] == department)].empty:
+        # If the employee exists, display a welcome message
+        print(f'Welcome {first_name} {surname} from {department} department!')
+    else:
+        # If the employee does not exist, display a message indicating that
+        print(f'Sorry, employee with first name {first_name}, surname {surname}, and department {department} does not exist.')
+
+verify_employee()
+
+2.
+import pandas as pd
+
+def verify_employee():
+    # Prompt the user for input
+    first_name = input('Enter employee first name: ')
+    surname = input('Enter employee surname: ')
+    department = input('Enter employee department: ')
+    
+    # Load the company profile dataset
+    df = pd.read_csv('jt-ventures.csv')
+    
+    # Check if the employee exists
+    employee = df.loc[(df['First Name'] == first_name) & (df['Surname'] == surname) & (df['Department'] == department)]
+    
+    if not employee.empty:
+        print(f'Welcome {first_name} {surname} from {department} department!')
+        print(df)
+    else:
+        print(f'Sorry, employee with first name {first_name}, surname {surname}, and department {department} does not exist.')
+3.
+import pandas as pd
+
+def verify_employee(first_name, surname, department):
+    # Load the company profile dataset
+    df = pd.read_csv('jt-ventures.csv')
+    
+    # Check if the employee exists
+    employee = df.loc[(df['First Name'] == first_name) & (df['Surname'] == surname) & (df['Department'] == department)]
+    
+    if not employee.empty:
+        print(f'Welcome {first_name} {surname} from {department} department!')
+        print(df)
+    else:
+        print(f'Sorry, employee with first name {first_name}, surname {surname}, and department {department} does not exist.')
+4.
+import pandas as pd
+
+def verify_employee():
+    # Prompt the user for input
+    name = input('Enter employee name: ')
+    department = input('Enter employee department: ')
+    
+    # Load the company profile dataset
+    df = pd.read_csv('jt-ventures.csv')
+    
+    # Check if the employee exists
+    employee = df.loc[(df['Name'] == name) & (df['Department'] == department)]
+    
+    if not employee.empty:
+        print(f'Welcome {name} from {department} department!')
+        print(df)
+    else:
+        print(f'Sorry, employee with name {name} and department {department} does not exist.')
+
+
