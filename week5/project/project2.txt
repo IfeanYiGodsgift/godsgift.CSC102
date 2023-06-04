@@ -1,0 +1,14 @@
+1. Input years of experience and age
+
+2. Calculate ATR based on experience and age
+    IF experience > 25 AND age >= 55 THEN
+        SET atr = 5600000
+    ELSE IF experience > 20 AND age >= 45 THEN
+        SET atr = 4480000
+    ELSE IF experience > 10 AND age >= 35 THEN
+        SET atr = 1500000
+    ELSE
+        SET atr = 550000
+    END IF
+
+3. Output ATR
